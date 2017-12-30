@@ -8,4 +8,6 @@ app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname + "/app/index.html"));
 });
 
-app.listen(3000, () => console.log("running on port 3000"));
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT);
