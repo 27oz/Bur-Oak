@@ -59,3 +59,13 @@ canvas {
   text-align: center;
   color: #ffffff;
 }
+
+#mc_embed_signup {
+  background-color: rgba(255, 255, 255, 0);
+  position: absolute;
+  top: 75%;
+}
+
+label {
+  color: #fff;
+}
